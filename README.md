@@ -1,6 +1,16 @@
 frontend-nanodegree-arcade-game
 ===============================
+# RUN
+To run this game, you have several choice. 
+- get the repo and open the `index.html` file on your browser.
+- go on the [github page](https://sfromentarius.github.io/arcade-game-fend-nanodegree/).
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+# PLAY THE ARCADE GAME
+- The goal of the game is to make the character get the water, without getting in collision with the ladybugs.
+- To move your player, use the arrow keys on your keyboard.
+- You loose if you are hit three times by the ladybugs.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+Good luck !
+
+# EXTERNAL CREDITS
+The sounds effect are created by [Juhani Junkala](https://juhanijunkala.com/).
