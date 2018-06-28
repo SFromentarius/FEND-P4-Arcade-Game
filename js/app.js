@@ -66,6 +66,7 @@ class Player {
     //Handle Player moves, and play a step sound for each move.
     //Prevent from going out of the canvas AND handle success to the water with a winning sound played, one point added and player position at the beginning.
     handleInput(allowedKeys) {
+        music.play();
         if (allowedKeys === 'left') {
             moveSound.play();
             this.x -= 100;
@@ -105,6 +106,7 @@ class Player {
     reset() {
         this.x = 200;
         this.y = 380;
+        music.play();
     }
     //method which add 1 point to the player score
     onePoint() {
@@ -194,3 +196,4 @@ function sound(src) {
 const moveSound = new sound('sounds/sfx_movement_footsteps1a.wav');
 const winSound = new sound('sounds/sfx_sounds_powerup12.wav');
 const collisionSound = new sound('sounds/sfx_sounds_damage2.wav');
+const music = new sound('sounds/PimPoy.wav')
