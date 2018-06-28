@@ -129,14 +129,16 @@ var scoreCount;
 function gameOver() {
     allEnemies.forEach(function (enemy) {
         enemy.speed = 0;
-        if (player.score === 0) {
-            scoreCount = '0 point';
-        } else {
-            scoreCount = player.score + ' points';
-        }
-        document.getElementById('scoreCount').textContent = scoreCount;
-        gameOverModal.style.display = 'block';
     })
+
+    if (player.score === 0) {
+        scoreCount = '0 point';
+    } else {
+        scoreCount = player.score + ' points';
+    }
+    document.getElementById('scoreCount').textContent = scoreCount;
+    gameOverModal.style.display = 'block';
+
 };
 
 tryAgainButton.onclick = function startAgain() {
