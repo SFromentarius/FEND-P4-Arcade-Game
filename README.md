@@ -13,4 +13,5 @@ To run this game, you have several choice.
 Good luck !
 
 # EXTERNAL CREDITS
-The sounds effect are created by [Juhani Junkala](https://juhanijunkala.com/).
+- The sounds effect are created by [Juhani Junkala](https://juhanijunkala.com/).
+- Music by [DL Sounds](https://www.dl-sounds.com/royalty-free/pim-poy-pocket/).
