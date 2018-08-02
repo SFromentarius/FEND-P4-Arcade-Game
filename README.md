@@ -1,5 +1,7 @@
-frontend-nanodegree-arcade-game
+FEND-P4-Arcade-Game
 ===============================
+With a provided art assets and game engine, the exercice was to edit app.js to build the game. We had to implement the Player and the Enemy classes, using Object-Oriented JavaScript. 
+
 # RUN
 To run this game, you have several choice. 
 - get the repo and open the `index.html` file on your browser.
